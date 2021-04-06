@@ -8,7 +8,6 @@
  *  Return an array of triplets that sum to zero
  * 
  *  Time complexity of O(n^2) where n is the length of the array
- *  Space complexity of O(n) where n is the length of the array due to sorting
  */
 function findTriplets(arr) {
   let triplets = [];
