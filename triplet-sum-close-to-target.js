@@ -9,6 +9,9 @@
 /** Function finds triplets that sum closest to a target amount
  *  Takes in an unsorted array of integers and a target sum
  *  Returns the sum of the triplet found
+ * 
+ *  Time complexity of O(n^2) where n is the length of the array
+ *  Space complexity of O(n) where n is the length of the array due to sorting
  */
 function findTriplets(arr, target) {
   let minDiff = Infinity;

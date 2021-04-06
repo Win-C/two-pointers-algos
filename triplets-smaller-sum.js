@@ -8,6 +8,9 @@
 /** Function counts the number of triplets that sum below the target
  *  Takes in an unsorted array and target sum
  *  Returns the count of distinct triplets found
+ * 
+ *  Time complexity of O(n^2) where n is the length of the array
+ *  Space complexity of O(n) where n is the length of the array due to sorting
  */
 function findTriplets(arr, target) {
   let count = 0;
