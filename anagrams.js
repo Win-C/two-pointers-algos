@@ -50,3 +50,9 @@ function countAnagrams(s0, s1) {
   }
   return numAnagrams;
 }
+
+// Test Cases
+const s0 = "abc";
+const s1 = "bcabxabc";
+
+console.log(countAnagrams(s0, s1));  // 3 with "bca", "cab" and "abc"
