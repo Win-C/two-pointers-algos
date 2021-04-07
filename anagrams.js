@@ -8,7 +8,8 @@
  *  Takes in two strings s0 and s1
  *  Returns the number of anagrams found
  * 
- *  Time complexity O(n) where n is the length of s1
+ *  Time complexity O(n + m) where n and m are the length of s0 and s1, 
+ *  respectively
  */
 function countAnagrams(s0, s1) {
   const patternFreq = {} // subStrMap for s0 pattern
