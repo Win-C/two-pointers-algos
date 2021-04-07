@@ -10,6 +10,7 @@
  * 
  *  Time complexity O(n + m) where n and m are the length of s0 and s1, 
  *  respectively
+ *  Space complexity O(m) for the hashMap
  */
 function countAnagrams(s0, s1) {
   const patternFreq = {} // subStrMap for s0 pattern
